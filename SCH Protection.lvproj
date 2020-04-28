@@ -33,9 +33,9 @@ Copyright 2018 Florida State University, All rights reserved.
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="SCH Protection New Project Zip File" Type="Zip File">
+			<Item Name="SCH Protection Project Zip File" Type="Zip File">
 				<Property Name="Absolute[0]" Type="Bool">false</Property>
-				<Property Name="BuildName" Type="Str">SCH Protection New Project Zip File</Property>
+				<Property Name="BuildName" Type="Str">SCH Protection Project Zip File</Property>
 				<Property Name="Comments" Type="Str"></Property>
 				<Property Name="DestinationID[0]" Type="Str">{810A64BC-5E71-4924-8268-360447515006}</Property>
 				<Property Name="DestinationItemCount" Type="Int">1</Property>
@@ -43,7 +43,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="IncludedItemCount" Type="Int">1</Property>
 				<Property Name="IncludedItems[0]" Type="Ref">/My Computer</Property>
 				<Property Name="IncludeProject" Type="Bool">true</Property>
-				<Property Name="Path[0]" Type="Path">../SCH Protection New.zip</Property>
+				<Property Name="Path[0]" Type="Path">../SCH Protection.zip</Property>
 				<Property Name="ZipBase" Type="Str">NI_zipbasevirtual</Property>
 			</Item>
 		</Item>
@@ -3606,7 +3606,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Launch SCH Protection-RT</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/Launch SCH Protection-RT</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{68249170-9416-430A-9E00-A801267959E8}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
@@ -3621,7 +3621,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2A976D2E-D1C5-42EC-ACEA-15852C258C70}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{72CCA50E-4930-421B-9534-D81889088F2E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi</Property>
@@ -3683,7 +3683,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/SCH Protect-RT Src</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/SCH Protect-RT Src</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8D4284B4-590F-423C-8B63-56D8945D393E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
@@ -3698,7 +3698,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2A976D2E-D1C5-42EC-ACEA-15852C258C70}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{72CCA50E-4930-421B-9534-D81889088F2E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/SCHProtect/Network Connection Handler.vi</Property>
@@ -3733,7 +3733,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Net Handle Src</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/Net Handle Src</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0C64BE50-8782-43C7-A341-ABBF7A01CF77}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
@@ -3748,7 +3748,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2A976D2E-D1C5-42EC-ACEA-15852C258C70}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{72CCA50E-4930-421B-9534-D81889088F2E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/SCHProtect/Network Connection Handler.vi</Property>
@@ -4881,7 +4881,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Load All Values and Start SCHMPS2 FPGA</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/Load All Values and Start SCHMPS2 FPGA</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{95E6B33D-9BC2-41F4-8CBC-7B943794E8C1}</Property>
@@ -4897,7 +4897,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6D651CAF-DE47-4A8E-AACF-A0929832E57F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E2E01236-5616-4E32-9983-77CDFCB25DCD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/SCHMPS 2/Load All Values and Start SCHMPS2 FPGA.vi</Property>
