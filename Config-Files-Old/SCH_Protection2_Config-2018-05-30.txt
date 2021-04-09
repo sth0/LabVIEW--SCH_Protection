@@ -1,0 +1,20 @@
+
+[FPGA Config Parameters]
+MGI RWA Section Options=2.0.1 %04Y%02m%02d %02H%02M%S%25u*~|.%d*~|.;*~|.%#_13g
+Ln2 Filter Size=10
+CoWound Volt Limit=0.3
+CoWound Tick Limit=4000000
+DAQ Cycle Ticks=4096
+Co-Wound Asymmetry Factor=-0.00414506
+Co-Wound Scale Factor=1.00011
+# Consecutive Zeros Fault=1000
+Digitize Convert Ticks=200
+Digitize Reset Ticks=400
+Convert Clock Ticks=20
+Digitize Read Delay Ticks=41
+Digitize # Bits=16
+Low Current (kA)=0.15
+Low Current Ticks=400000000
+Low Current Delay Factor=100
+Cold Mass Scale Factor=1.09839897
+Current Scale Factor=2
