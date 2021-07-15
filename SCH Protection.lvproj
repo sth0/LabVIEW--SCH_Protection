@@ -13,14 +13,14 @@ RT system to accumulate data from FPGA and send to remote clients over custom TC
 Author: Scott Hannahs &lt;sth@magnet.fsu.edu&gt;
 Copyright 2018 Florida State University, All rights reserved.
 </Property>
-	<Property Name="varPersistentID:{0C0E339D-12FB-4245-9C78-00045CABFC2D}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/output</Property>
-	<Property Name="varPersistentID:{6B932B8A-A4ED-409C-A865-51EE7D20BFFA}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/error out</Property>
-	<Property Name="varPersistentID:{904B4C29-7CE4-42BB-8FC2-CB5EA59A678C}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/error in</Property>
-	<Property Name="varPersistentID:{9BB0499C-0CA5-48FD-8659-F8EB5E057F69}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/output</Property>
-	<Property Name="varPersistentID:{C046ED69-6CBA-498B-95C8-CDB00A24BCE5}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/error out</Property>
-	<Property Name="varPersistentID:{CA45D630-54F2-4E91-94B1-1A795C90B45C}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/input</Property>
-	<Property Name="varPersistentID:{E87663AD-0897-4150-9B72-5EA3336AF4F8}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/error in</Property>
-	<Property Name="varPersistentID:{FA98F7BC-80E3-4180-AB90-D48CC7C0E219}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/input</Property>
+	<Property Name="varPersistentID:{0634A3DB-6C1E-4DA9-99F2-20682E7F7F15}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/error in</Property>
+	<Property Name="varPersistentID:{20DA2BC3-363D-4BED-93E4-C38520ED9A61}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/output</Property>
+	<Property Name="varPersistentID:{21B9F6B6-F94D-4944-8609-004EADFE7A9D}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/error in</Property>
+	<Property Name="varPersistentID:{354F484A-4B00-4915-9B19-7D9909F4B9DC}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/input</Property>
+	<Property Name="varPersistentID:{3782860C-418A-419D-8D1C-142570363312}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/output</Property>
+	<Property Name="varPersistentID:{4CA6410E-7F81-432B-A63C-CF816ED950CF}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/error out</Property>
+	<Property Name="varPersistentID:{7F6D0072-ACEF-4715-A47F-F2C73E6F7628}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/error out</Property>
+	<Property Name="varPersistentID:{F0CD0581-4D81-452B-B9AB-DFDA370E2C97}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/input</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -3700,7 +3700,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{68249170-9416-430A-9E00-A801267959E8}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">201</Property>
+				<Property Name="Bld_version.build" Type="Int">203</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -3777,10 +3777,10 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8D4284B4-590F-423C-8B63-56D8945D393E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">200</Property>
+				<Property Name="Bld_version.build" Type="Int">202</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">9</Property>
-				<Property Name="Bld_version.patch" Type="Int">3</Property>
+				<Property Name="Bld_version.patch" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -3788,7 +3788,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{70694BF4-FC41-48AF-A7FA-F2EA5E62506A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{99F20C32-34E9-48F8-8257-D01613CDAC50}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/SCHProtect/Network Connection Handler.vi</Property>
@@ -3827,7 +3827,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0C64BE50-8782-43C7-A341-ABBF7A01CF77}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">196</Property>
+				<Property Name="Bld_version.build" Type="Int">198</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">4</Property>
