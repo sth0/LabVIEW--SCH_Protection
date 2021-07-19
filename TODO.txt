@@ -1,0 +1,5 @@
+SCH Protection Software
+2021-07-19	Scott Hannahs	<sth@magnet.fsu.edu>
+	Added file templates to globals and use them to construct single rsync command
+	Updated path in rsync command to point to new server folder location
+	Still need to implement multiple variable "GET" command as done for SCM4
