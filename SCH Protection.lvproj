@@ -13,14 +13,14 @@ RT system to accumulate data from FPGA and send to remote clients over custom TC
 Author: Scott Hannahs &lt;sth@magnet.fsu.edu&gt;
 Copyright 2018 Florida State University, All rights reserved.
 </Property>
-	<Property Name="varPersistentID:{186FBA5A-59F5-4CEE-8306-C61E678DB2C9}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/input</Property>
-	<Property Name="varPersistentID:{320414B4-E53F-4939-B34E-98E6183629DB}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/output</Property>
-	<Property Name="varPersistentID:{3E7B5578-AA69-4D75-A3C0-0FFDF19FB24D}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/output</Property>
-	<Property Name="varPersistentID:{4221D099-6F16-4E00-95E6-1E8BFCD1FD64}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/error in</Property>
-	<Property Name="varPersistentID:{5589B152-6852-4CBF-AF98-5AC55396C631}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/error out</Property>
-	<Property Name="varPersistentID:{A0449587-1221-4DB3-84B2-65539B6FC162}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/error out</Property>
-	<Property Name="varPersistentID:{AF275156-281E-4F89-8B9C-98769F666323}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/error in</Property>
-	<Property Name="varPersistentID:{E03A617F-1911-4868-B72A-CD9BB5EDA9A9}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/input</Property>
+	<Property Name="varPersistentID:{095E5986-09CC-416E-9250-19A6EFB5CF34}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/output</Property>
+	<Property Name="varPersistentID:{1E0C8E8F-CD90-4BF0-874F-13864EA0D578}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/input</Property>
+	<Property Name="varPersistentID:{59A717DD-950E-4738-BBB5-67812296E15B}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/error out</Property>
+	<Property Name="varPersistentID:{6F3849CE-E458-4B44-A765-9BBEA965BAE7}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/error out</Property>
+	<Property Name="varPersistentID:{8CC7BC0C-EEB0-40A1-BE7C-B0637118A002}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/error in</Property>
+	<Property Name="varPersistentID:{A5365BBE-1DD9-4A0B-9D23-A6E5A44E2BE7}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/error in</Property>
+	<Property Name="varPersistentID:{AF4CBB27-7E0E-459B-8851-E91564AAFFAF}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/input</Property>
+	<Property Name="varPersistentID:{D2527B61-F26A-4604-A77E-E3A217F2A10F}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/output</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -295,6 +295,7 @@ DirectoryIndex index.htm
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9039/Clk40/falsefalseDEBUGFalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9039FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.DramBanksReservedForMemories" Type="Str">DramBank0</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
+				<Property Name="niFpga_TopLevelVIID" Type="Path">/Y/Winders LV 20/SCH Protection LV20/FPGA Digitize and Protect.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 				<Property Name="SWEmulationVIPath" Type="Path"></Property>
