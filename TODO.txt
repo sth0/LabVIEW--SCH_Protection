@@ -3,6 +3,10 @@ SCH Protection Software
 	Added file templates to globals and use them to construct single rsync command
 	Updated path in rsync command to point to new server folder location
 
+2021-11-19	Scott Hannahs	<sth@magnet.fsu.edu>
+	Added crontab.txt file to LV project
+	Added install instructions
+
 TODO:
 	Need to implement multiple variable "GET" command as done for SCM4
 	Need to remove "Stop" button and change associated loop stop criteria

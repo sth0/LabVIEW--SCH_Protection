@@ -1,0 +1,23 @@
+Installation of SCH Protection software
+Most installation is to build the components of the project and use the "deploy" operation
+on the Build Specification.  Set the "Launch SCH Protection-RT" build to "run at startup",
+this will ask for a reboot of the cRIO.
+
+The two protection config files are valid as of 2021-11-19.
+
+The lvuser account must be able to have auto-ssh login to the OpsServer or whereever the data
+files are supposed to go.  In the lvuser account use the cp_sshkey utility to copy the public
+key to ops server.
+
+If necessary create a public/private key pair with the ssh-keygen command.  This will generate
+an rsa public/private key pair in ~/.ssh
+
+The crontab.txt file must be installed under the lvuser account.  In the admin account, use
+"sudo -u lvuser crontab ~lvuser/crontab.txt.  Or where ever the crontab.txt in installed.
+Check that it is installed with "sudo -u lvuser crontab -l".
+
+This crontab file will update the Magnet Calibrations folder from the similar folder on
+Opsserver that is updated from the radmind server (also OpsServer) nightly.
+
+Scott Hannahs	<sth@magnet.fsu.edu>
+November 2021

@@ -3483,6 +3483,8 @@ DirectoryIndex index.htm
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="crontab.txt" Type="Document" URL="//vmware-host/Shared Folders/Winders LV 20/SCH Protection LV20/crontab.txt"/>
+		<Item Name="INSTALL.txt" Type="Document" URL="//vmware-host/Shared Folders/Winders LV 20/SCH Protection LV20/INSTALL.txt"/>
 		<Item Name="Launch SCH Protection RT.vi" Type="VI" URL="../Launch SCH Protection RT.vi"/>
 		<Item Name="Network Connection Handler.vi" Type="VI" URL="../RT Server Sub VIs/Network Connection Handler.vi"/>
 		<Item Name="SCH Protection-RT Host.vi" Type="VI" URL="../SCH Protection-RT Host.vi">
@@ -3597,6 +3599,7 @@ DirectoryIndex index.htm
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
