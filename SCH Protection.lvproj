@@ -3792,7 +3792,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F063C5EF-7B82-47C5-9B88-D3CB0476AA61}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{36B0CF79-F2FD-422D-BBCA-48311995A542}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/SCHProtect/Network Connection Handler.vi</Property>
@@ -3811,7 +3811,10 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/SCHProtect/SCH_Protection_Config.txt</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/SCHProtect/crontab.txt</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 			<Item Name="Network Connection Handler Source" Type="Source Distribution">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
