@@ -30,5 +30,5 @@
 # input.
 #
 #Minute Hour    Day     Month   Weekday Command
-27	4	*	*	*	/usr/bin/rsync -az --nogroup --delete rmps@opsserver.magnet.fsu.edu:'/Users/Shared/Magnet\ Calibrations' /usr/local/share/
+27	4	*	*	*	/usr/bin/rsync -az --delete rmps@opsserver.magnet.fsu.edu:'/Users/Shared/Magnet\ Calibrations' /usr/local/share/
 
