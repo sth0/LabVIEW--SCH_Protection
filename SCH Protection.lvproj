@@ -13,14 +13,14 @@ RT system to accumulate data from FPGA and send to remote clients over custom TC
 Author: Scott Hannahs &lt;sth@magnet.fsu.edu&gt;
 Copyright 2018 Florida State University, All rights reserved.
 </Property>
-	<Property Name="varPersistentID:{095E5986-09CC-416E-9250-19A6EFB5CF34}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/output</Property>
-	<Property Name="varPersistentID:{1E0C8E8F-CD90-4BF0-874F-13864EA0D578}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/input</Property>
-	<Property Name="varPersistentID:{59A717DD-950E-4738-BBB5-67812296E15B}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/error out</Property>
-	<Property Name="varPersistentID:{6F3849CE-E458-4B44-A765-9BBEA965BAE7}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/error out</Property>
-	<Property Name="varPersistentID:{8CC7BC0C-EEB0-40A1-BE7C-B0637118A002}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/error in</Property>
-	<Property Name="varPersistentID:{A5365BBE-1DD9-4A0B-9D23-A6E5A44E2BE7}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/error in</Property>
-	<Property Name="varPersistentID:{AF4CBB27-7E0E-459B-8851-E91564AAFFAF}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/input</Property>
-	<Property Name="varPersistentID:{D2527B61-F26A-4604-A77E-E3A217F2A10F}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/output</Property>
+	<Property Name="varPersistentID:{21B3FB85-B8E0-467A-B564-6424CA2723C2}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/input</Property>
+	<Property Name="varPersistentID:{2505E801-D8F6-4009-A6E2-95CA65AA7866}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/error in</Property>
+	<Property Name="varPersistentID:{40204B28-B2FF-43C6-BAAA-24570E7BF87F}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/output</Property>
+	<Property Name="varPersistentID:{58EC8634-FF29-4413-BD18-9740B80C01D9}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/output</Property>
+	<Property Name="varPersistentID:{5B031C97-8395-4883-AA9C-CC9DB9663B75}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/error out</Property>
+	<Property Name="varPersistentID:{7B410AF7-7466-4A01-A9E3-B24A8A269AFC}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/input</Property>
+	<Property Name="varPersistentID:{8CA91042-4DFE-476F-ADE7-9904F586158D}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/PS Enable/error out</Property>
+	<Property Name="varPersistentID:{BC8B8BF8-E1F9-44F0-9DC7-CDEA4E10579A}" Type="Ref">/SCHProtect/SCH Protection-RT Host.vi/Breaker Enable/error in</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -233,6 +233,7 @@ DirectoryIndex index.htm
 			<Item Name="RT Watchdog Setup.vi" Type="VI" URL="../RT Server Sub VIs/RT Watchdog Setup.vi"/>
 			<Item Name="Save SCH FPGA Config Parameters to File MGI RWA.vi" Type="VI" URL="../Sub VIs/Save SCH FPGA Config Parameters to File MGI RWA.vi"/>
 			<Item Name="Save Trip File.vi" Type="VI" URL="../RT Server Sub VIs/Save Trip File.vi"/>
+			<Item Name="Send Email.vi" Type="VI" URL="../RT Server Sub VIs/Send Email.vi"/>
 			<Item Name="Set SCH Parameter File.vi" Type="VI" URL="../Sub VIs/Set SCH Parameter File.vi"/>
 			<Item Name="Start FIFOs.vi" Type="VI" URL="../Sub VIs/Start FIFOs.vi"/>
 			<Item Name="Stop and Empty FIFOs.vi" Type="VI" URL="../Sub VIs/Stop and Empty FIFOs.vi"/>
@@ -295,7 +296,6 @@ DirectoryIndex index.htm
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9039/Clk40/falsefalseDEBUGFalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9039FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.DramBanksReservedForMemories" Type="Str">DramBank0</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
-				<Property Name="niFpga_TopLevelVIID" Type="Path">/Y/Winders LV 20/SCH Protection LV20/FPGA Digitize and Protect.vi</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
 				<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 				<Property Name="SWEmulationVIPath" Type="Path"></Property>
@@ -3705,7 +3705,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{68249170-9416-430A-9E00-A801267959E8}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">206</Property>
+				<Property Name="Bld_version.build" Type="Int">213</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -3782,9 +3782,10 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8D4284B4-590F-423C-8B63-56D8945D393E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">205</Property>
+				<Property Name="Bld_version.build" Type="Int">216</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">10</Property>
+				<Property Name="Bld_version.patch" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -3792,7 +3793,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{36B0CF79-F2FD-422D-BBCA-48311995A542}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{36947A30-3F5C-4B01-996D-FC9B726ACEE7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/SCHProtect/Network Connection Handler.vi</Property>
@@ -3834,7 +3835,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0C64BE50-8782-43C7-A341-ABBF7A01CF77}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">201</Property>
+				<Property Name="Bld_version.build" Type="Int">209</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">4</Property>
