@@ -3414,7 +3414,7 @@ DirectoryIndex index.htm
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
-						<Property Name="Comp.Version.Build" Type="Int">114</Property>
+						<Property Name="Comp.Version.Build" Type="Int">115</Property>
 						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
 						<Property Name="Comp.Version.Major" Type="Int">2</Property>
 						<Property Name="Comp.Version.Minor" Type="Int">6</Property>
@@ -3705,7 +3705,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{68249170-9416-430A-9E00-A801267959E8}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">213</Property>
+				<Property Name="Bld_version.build" Type="Int">214</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -3782,7 +3782,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8D4284B4-590F-423C-8B63-56D8945D393E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">216</Property>
+				<Property Name="Bld_version.build" Type="Int">217</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">10</Property>
 				<Property Name="Bld_version.patch" Type="Int">5</Property>
@@ -3835,7 +3835,7 @@ Copyright 2018 Florida State University, All rights reserved.
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0C64BE50-8782-43C7-A341-ABBF7A01CF77}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">209</Property>
+				<Property Name="Bld_version.build" Type="Int">210</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">4</Property>
